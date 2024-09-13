@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context= ".views.ui.activities.LoginActivity">
+
+    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="29dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="246dp"
+        android:layout_height="58dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif"
+        android:text="Iniciar Sesión"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="355dp"
+        android:layout_height="31dp"
+        android:autoSizeTextType="uniform"
+        android:text="Correo"
+        android:textAlignment="textStart" />
+
+    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="361dp"
+        android:layout_height="59dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:hint="  Ingrese su correo..."
+        android:inputType="textEmailAddress"
+        android:textAlignment="textStart" />
+
+    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="355dp"
+        android:layout_height="30dp"
+        android:autoSizeTextType="uniform"
+        android:text="Contraseña"
+        android:textAlignment="textStart" />
+
+    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="361dp"
+        android:layout_height="59dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:hint="  Ingrese su contraseña..."
+        android:inputType="textPassword" />
+
+    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_button"
+        android:text="Ingresar"
+        android:textAllCaps="false"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="20sp" />
+
+    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:background="@color/greenPrimaryColor"
+        android:foregroundGravity="bottom"
+        android:paddingTop="20dp"
+        android:scaleX="3"
+        android:scaleY="3"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:background="@color/greenPrimaryDarkColor"
+        android:orientation="vertical" />
+
+
+</LinearLayout>
